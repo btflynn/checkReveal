@@ -52,6 +52,7 @@ button { position: absolute; top: 0; right: 0; }
       }
     }
     > label {
+      margin-bottom: 10px;
       &:after {
         content: "";
         width: 0; 
@@ -60,7 +61,7 @@ button { position: absolute; top: 0; right: 0; }
         border-bottom: 6px solid transparent;
         border-left: 6px solid #7e7e7e;
         position: absolute;
-        top: 4px;
+        top: 0;
         right: -15px;
       }
     }
