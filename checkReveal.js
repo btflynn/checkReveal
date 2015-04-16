@@ -1,9 +1,9 @@
 
   var revealCheckedBoxes = {
     // Array of all the checked checkboxes
-    checkedBoxes: $('.channel-topic-dropdowns .topics input[type=checkbox]'),
+    checkedBoxes: $('.channel-topic-dropdowns_topics input[type=checkbox]'),
     
-    container: $('.parent'),
+    container: $('.channel-topic-dropdowns_parent'),
     
     // Returns true if checkbox is checked 
     isChecked: function(target){
@@ -30,7 +30,3 @@
   $('button').on('click',function(){
     revealCheckedBoxes.init();
   });
-  
-
-
-
